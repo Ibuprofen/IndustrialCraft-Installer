@@ -4,7 +4,7 @@ IndustrialCraft-Installer
 A small bash script to automate the installation of the IndustrialCraft mod for Minecraft.
 
 
-Still crude and only tested with OS X Mountain Lion.
+Still crude and only tested with OS X Mountain Lion with Minecraft 1.4.7.
 
 
 Installation
