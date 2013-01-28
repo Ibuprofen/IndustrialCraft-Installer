@@ -51,6 +51,11 @@ cd ~/Downloads/industrialcraft
 
 if [ -d ~/Library/Application\ Support/minecraft/mods ]
 then
+	if [ -f ~/Library/Application\ Support/minecraft/mods/industrialcraft-*.jar ]
+	then
+		echo "Removing possibly out of date IndustrialCraft jars"
+		rm -f ~/Library/Application\ Support/minecraft/mods/industrialcraft-*.jar
+	fi
 	cp $IC2FILE ~/Library/Application\ Support/minecraft/mods/
 	echo "Done. Firing up minecraft!"
 	open /Applications/Minecraft.app
